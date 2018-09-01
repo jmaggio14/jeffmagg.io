@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Online Fourier Transformer!</title>
+    <meta property="og:url" content="http://www.jeffmagg.io/fourier.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Online Fourier Transformer!" />
+    <meta property="og:image" content="img/fourier.jpg" />
+
+  <link href="http://www.jeffmagg.io/css/simplex.min.css" rel="stylesheet">
+  </head>
+
+
+<body>
+
+  <div class="container" role="main">
+  <!-- header image -->
+    <div class="page-header">
+      <div class="row text-center">
+        <div class="col-md-offset-2 col-md-8">
+        <figure class="figure">
+          <h1><b>Online Fourier Transformer!</b></h1>
+          <div class="span4"><img class="center-block" src="img/fourier.jpg" height="500" /></div>
+      <!--       <figcaption class="figure-caption">
+              <p style="font-size:20px"> credit: <a href="https://www.smbc-comics.com/?id=2874">Saturday Morning Breakfast Cereal</a></p>
+            </figcaption> -->
+        </figure>
+        </div>
+      </div>
+    </div>
+
+  <div class="page-header">
+
+        <p align="center"></p>
+      <div class="row text-center">
+        <div class="col-md-offset-1 col-md-10">
+          <h3><label for="seed">Please Input Fourier Seed</label></h3>
+          <p class="text-center">
+            <input type="number" id="seed">
+            <button class="btn btn-primary" id="fourier-submit">Compute!</button>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-offset-2 col-md-10">
+          <h2 id="fourier-base">Fouriest Base: </h2>
+          <br>
+          <h4 id="output">Number in Base X:</h4>
+        </div>
+      </div>
+    </div>
+   </div>
+
+  </div>
+<!-- JS SCRIPTS -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> <!-- ADDS JQUERY -->
+  <script type="text/javascript" src="http://www.jeffmagg.io/js/fourier.js"></script>
+  <script src="http://peterolson.github.com/BigInteger.js/BigInteger.min.js"></script>
+</body>
+</html>

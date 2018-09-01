@@ -1,0 +1,6 @@
+DirectoryIndex index.html index.php index.htm
+AuthUserFile /home/jeffhfly/public_html/personal/.htpasswd
+AuthName "Are you Jeff?"
+AuthType Basic
+
+require user jeff
