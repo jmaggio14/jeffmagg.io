@@ -54,6 +54,10 @@
           width: auto;
           height: auto;
         }
+
+        .spaced-list{
+          margin: 30px 0;
+        }
       </style>
   </head>
   <body>
@@ -96,8 +100,7 @@
           </figure>
           <div class="row">
 
-            <ul class="nav text-center nav-center" style="font-size: 18px">
-            <!-- <ul class="nav nav-pills text-center nav-center nav-justified" style="font-size: 18px"> -->
+            <ul class="nav nav-pills text-center nav-center nav-justified" style="font-size: 18px">
               <li class="active"><a href="http://www.jeffmagg.io/index.html">Online CV</a></li>
               <li><a href="http://www.jeffmagg.io/contact.html">Contact</a></li>
               <li><a href="http://www.jeffmagg.io/pdf/Jeff-Maggio-Resume.pdf">Resume</a></li>
@@ -241,59 +244,48 @@
   <div class="page-header" id="skills">
     <h2><b>Skills</b></h2>
     <div class="row">
-      <div class="col-md-offset-1 col-md-5">
-        <h3 style="font-size: 14px"><b>Software</b></h3>
-        <ul class="skill-list">
-          <li>Version Control Systems -- <i>Git</i></li>
-          <li>CAD design software -- <i>Solidworks, Inventor</i></li>
-          <li>PCB Design Software -- <i>Eagle</i></li>
-          <li>Scientific Documentation Tools -- <i>LaTeX</i></li>
-          <li>Optical Design Software -- <i>Zemax</i></li>
-        </ul>
-      </div>
-
-
-      <div class="col-md-offset-1 col-md-5">
-        <h3 style="font-size: 14px"><b>Programming</b></h3>
-        <ul class="skill-list">
+      <div class="col-md-offset-1 col-md-11">
+        <h3 style="font-size: 14px"><b>Programming (by skill level)</b></h3>
+        <ol class="skill-list spaced-list">
           <li>Python -- <i>(Skilled)</i></li>
-          <li>Bash -- <i>(Skilled)</i></li>
-          <!-- <li>LaTeX  <i>(Skilled)</i></li> -->
           <li>C -- <i>(Proficient)</i></li>
-          <li>C++ -- <i>(Proficient)</i></li>
           <li>Matlab -- <i>(Proficient)</i></li>
           <li>HTML/CSS -- <i>(Proficient)</i></li>
           <li>Javascript -- <i>(Novice)</i></li>
-          <!-- <li>LabVIEW  <i>(Capable)</i></li> -->
-          <!-- <li>Verilog -- <i>(Novice)</i></li> -->
+          <!-- <li>Bash -- <i>(Proficient)</i></li> -->
+          <b><i>*plus experienced with various IDEs and able to operate fluetly on the command line</i></b><br>
+          <b><i>*I like to think I could pick up C++ quickly, but have yet to work with it extensively</i></b>
+          <!-- <li>C++ -- <i>(Proficient)</i></li> -->
 
-        </ul>
+        </ol>
       </div>
     </div>
 
     <div class="row">
 
-      <div class="col-md-offset-1 col-md-5">
+      <div class="col-md-offset-1 col-md-11">
         <h3 style="font-size: 14px"><b>Hardware</b></h3>
-        <ul class="skill-list">
-          <li>Embedded Linux Systems -- <i>(experienced)</i></li>
-          <li>Programmable Cameras  -- <i>(experienced)</i></li>
-          <li>3D printers  -- <i>(experienced)</i></li>
-          <li>Data Acquisition Systems  -- <i>(experienced)</i></li>
-          <li>Optical System Design  -- <i>(moderately experienced)</i></li>
-          <li>Circuit Board Design and Fabrication  -- <i>(moderately experienced)</i></li>
-          <li>Basic Machining  -- <i>(moderately experienced)</i></li>
+        <ul class="skill-list spaced-list">
+          <li>Arduinos, raspberry pis, etc | simple embedded systems, high level communication over buses</li>
+          <li>Drone flight controllers | (Ardupilot)</li>
+          <li>Working with Cameras programmatically  | (mostly UVC, but also proprietary APIs)</li>
+          <li>3D printers | Design & Maintainence (CAD skill is a little above hobbyist level)</li>
+          <li>Data Acquisition Systems  | <i>(some experience have worked with NI, and other DAQs)</i></li>
+          <li>Circuit Board Design and Fabrication  | <i>(hobbyist level - only simple stuff)</i></li>
+          <li>Basic Machining  | <i>(some experience working with mills, lathes, waterjets, etc)</i></li>
+          <li>CAD design software | <i>Solidworks, Inventor (a little above hobbyist level)</i></li>
           <!-- <li>FPGAs -- <i>(Novice)</i></li> -->
         </ul>
       </div>
-
-      <div class="col-md-offset-1 col-md-5">
-        <h3 style="font-size: 14px"><b>Other</b></h3>
-        <ul class="skill-list">
+    </div>
+    <div class="row">
+      <div class="col-md-offset-1 col-md-11">
+        <h3 style="font-size: 14px"><b>More academic skills</b></h3>
+        <ul class="skill-list spaced-list">
           <li>Image and Signal processing | Computer Vision</li>
           <li>Fourier Mathematics</li>
           <li>Cross Discipline Experience</li>
-          <li>Fluent in UNIX/Linux</li>
+          <li>UNIX/Linux, comfortable on the command line</li>
           <li>Thorough Understanding of the physics of radiation</li>
           <li>Cleanroom Optics Training</li>
         </ul>
