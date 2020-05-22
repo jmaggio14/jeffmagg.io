@@ -1,3 +1,11 @@
+img {
+    display: block;
+    max-width:324px;
+    max-height:324px;
+    width: auto;
+    height: auto;
+    }
+
 .img-profile {
   /* border-radius: 100px/100px; */
   border-radius: 100%;
