@@ -1,5 +1,7 @@
-.img-circle {
+.img-profile {
   /* border-radius: 100px/100px; */
   border-radius: 100%;
+  max-width: 256px;
+  max-height: 256px;
   /* border: 2px solid #FF0000; */
   }
