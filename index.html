@@ -8,65 +8,68 @@
   </head>
   <body>
 
-    <!-- NAVIGATION TABS -->
-    <ul class="nav nav-tabs">
-      <!-- Resume -->
-      <li class="nav-item">
-        <a class="nav-link active" data-toggle="tab" href="#resume">Resume</a>
-      </li>
-      <!-- CV -->
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#cv">Full CV</a>
-      </li>
-      <!-- Coursework -->
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#coursework">Coursework</a>
-      </li>
-      <!-- CONTACT -->
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#contact">Contact</a>
-      </li>
-    </ul>
+    <div class="container" role="main">
+        <!-- NAVIGATION TABS -->
+        <ul class="nav nav-pills">
+          <!-- Resume -->
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="pill" href="#resume">Resume</a>
+          </li>
+          <!-- CV -->
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#cv">Full CV</a>
+          </li>
+          <!-- Coursework -->
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#coursework">Coursework</a>
+          </li>
+          <!-- CONTACT -->
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#contact">Contact</a>
+          </li>
+        </ul>
 
-  <!-- TAB CONTENT -->
-  <div id="tab_data" class="tab-content">
-    <div class="tab-pane fade show active" id="resume">
-        <script type="text/javascript">
-             $(function(){ $("#resume").load("./subsections/resume.html") });
-       </script>
+      <!-- TAB CONTENT -->
+      <div id="tab_data" class="tab-content">
+        <div class="tab-pane fade show active" id="resume">
+            <script type="text/javascript">
+                 $(function(){ $("#resume").load("./subsections/resume.html") });
+           </script>
+        </div>
+        <div class="tab-pane fade" id="cv">
+            <script type="text/javascript">
+                 $(function(){ $("#cv").load("./subsections/cv.html") });
+           </script>
+        </div>
+        <div class="tab-pane fade" id="coursework">
+            <script type="text/javascript">
+                 $(function(){ $("#coursework").load("./subsections/coursework.html") });
+           </script>
+        </div>
+        <div class="tab-pane fade" id="contact">
+            <script type="text/javascript">
+                 $(function(){ $("#contact").load("./subsections/contact.html") });
+           </script>
+        </div>
+      </div>
     </div>
-    <div class="tab-pane fade" id="cv">
-        <script type="text/javascript">
-             $(function(){ $("#cv").load("./subsections/cv.html") });
-       </script>
-    </div>
-    <div class="tab-pane fade" id="coursework">
-        <script type="text/javascript">
-             $(function(){ $("#coursework").load("./subsections/coursework.html") });
-       </script>
-    </div>
-    <div class="tab-pane fade" id="contact">
-        <script type="text/javascript">
-             $(function(){ $("#contact").load("./subsections/contact.html") });
-       </script>
-    </div>
-  </div>
-
 
   </body>
+
+
   <footer class="hidden-print">
     <script type="text/javascript">
       $(function(){$("footer").load("footer.html");});
     </script>
   </footer>
 
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     $("head").load("head.html") });
     $("#resume").load("./subsections/resume.html") });
     $("#cv").load("./subsections/cv.html") });
     $("#coursework").load("./subsections/coursework.html") });
     $("#contact").load("./subsections/contact.html") });
     $("footer").load("footer.html");});
-  </script>
+  </script> -->
 
 </html>
