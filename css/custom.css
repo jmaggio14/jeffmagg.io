@@ -13,6 +13,8 @@ h2 span {
 
 .proj {
     padding-left: 2%;
+    padding-bottom: 1vh;
+
 }
 
 .img-profile {
@@ -62,10 +64,14 @@ h2 span {
 }
 
 .summary-header {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .footer-element {
     padding-right: 5%;
+}
+
+.spaced-list{
+  margin: 3px 0;
 }
