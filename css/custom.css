@@ -4,16 +4,68 @@ img {
     max-height:324px;
     width: auto;
     height: auto;
+    margin: auto;
     }
+
+h2 span {
+    display: block;
+}
+
+.proj {
+    padding-left: 2%;
+}
 
 .img-profile {
   /* border-radius: 100px/100px; */
+
   border-radius: 100%;
   max-width: 256px;
   max-height: 256px;
   /* border: 2px solid #FF0000; */
   }
 
-.nav-link {
-    font-size: 24px
+.pill-link {
+    font-size: 18px
+}
+
+.proj-header{
+
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.profile-header{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.nav {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.resume {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.head-buffer {
+    padding-top: 3vh
+}
+
+.dates{
+  font-size: 14px;
+  font-style: italic;
+}
+
+.resume-button-container {
+    padding: 2%;
+}
+
+.summary-header {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.footer-element {
+    padding-right: 5%;
 }

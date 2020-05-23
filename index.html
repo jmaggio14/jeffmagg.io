@@ -10,14 +10,15 @@
 
 
     <div class="container" role="main">
-        <div class="page-header">
+        <div class="page-header head-buffer">
             <div class="row text-center">
                 <div class="col">
                     <figure class="figure">
                       <div class="span4"><img class="center-block img-profile" src="assets/profile.jpg" /></div>
                         <figcaption class="figure-caption">
-                          <h1 class="profile-header" style="font-size: 50px"><b>Jeff Maggio</b></h1>
+                          <h1 class="profile-header" style="font-size: 45px"><b>Jeff Maggio</b></h1>
                           <h2 class="profile-header">Aspiring Experimental Astrophysicist</h2>
+                          <h5 class="summary-header">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
                         </figcaption>
                     </figure>
 
@@ -26,48 +27,50 @@
                     <ul class="nav nav-pills text-center nav-center nav-justified">
                       <!-- Resume -->
                       <li class="nav-item">
-                        <a class="nav-link active" data-toggle="pill" href="#resume">Resume</a>
+                        <a class="pill-link active" data-toggle="pill" href="#resume">Resume</a>
                       </li>
                       <!-- CV -->
                       <li class="nav-item">
-                        <a class="nav-link" data-toggle="pill" href="#cv">Full CV</a>
+                        <a class="pill-link" data-toggle="pill" href="#cv">Full CV</a>
                       </li>
                       <!-- Coursework -->
                       <li class="nav-item">
-                        <a class="nav-link" data-toggle="pill" href="#coursework">Coursework</a>
+                        <a class="pill-link" data-toggle="pill" href="#coursework">Coursework</a>
                       </li>
                       <!-- CONTACT -->
                       <li class="nav-item">
-                        <a class="nav-link" data-toggle="pill" href="#contact">Contact</a>
+                        <a class="pill-link" data-toggle="pill" href="#contact">Contact</a>
                       </li>
                     </ul>
+
                 </div>
+            </div>
+            <!-- TAB CONTENT -->
+            <div id="tab_data text-left" class="container tab-content">
+              <div class="tab-pane fade show active" id="resume">
+                  <script type="text/javascript">
+                       $(function(){ $("#resume").load("./subsections/resume.html") });
+                 </script>
+              </div>
+              <div class="tab-pane fade" id="cv">
+                  <script type="text/javascript">
+                       $(function(){ $("#cv").load("./subsections/cv.html") });
+                 </script>
+              </div>
+              <div class="tab-pane fade" id="coursework">
+                  <script type="text/javascript">
+                       $(function(){ $("#coursework").load("./subsections/coursework.html") });
+                 </script>
+              </div>
+              <div class="tab-pane fade" id="contact">
+                  <script type="text/javascript">
+                       $(function(){ $("#contact").load("./subsections/contact.html") });
+                 </script>
+              </div>
             </div>
         </div>
 
-      <!-- TAB CONTENT -->
-      <div id="tab_data" class="tab-content">
-        <div class="tab-pane fade show active" id="resume">
-            <script type="text/javascript">
-                 $(function(){ $("#resume").load("./subsections/resume.html") });
-           </script>
-        </div>
-        <div class="tab-pane fade" id="cv">
-            <script type="text/javascript">
-                 $(function(){ $("#cv").load("./subsections/cv.html") });
-           </script>
-        </div>
-        <div class="tab-pane fade" id="coursework">
-            <script type="text/javascript">
-                 $(function(){ $("#coursework").load("./subsections/coursework.html") });
-           </script>
-        </div>
-        <div class="tab-pane fade" id="contact">
-            <script type="text/javascript">
-                 $(function(){ $("#contact").load("./subsections/contact.html") });
-           </script>
-        </div>
-      </div>
+
     </div>
 
   </body>
