@@ -88,6 +88,10 @@ ul {
     font-size:16px;
 }
 
+.contact-font {
+    font-size: 20px
+}
+
 .fade-in-fast {
   animation: fadeIn ease .5s;
   -webkit-animation: fadeIn ease .5s;
