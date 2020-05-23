@@ -32,7 +32,7 @@ h2 span {
 
 .proj-header{
 
-    font-size: 20px;
+    font-size: 24px;
     font-family: "Times New Roman", Times, serif;
 }
 
@@ -41,13 +41,13 @@ h2 span {
 }
 
 .nav {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .resume {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .head-buffer {
@@ -82,4 +82,8 @@ h2 span {
 
 .resume-section {
     padding-bottom: 1vh;
+}
+
+ul {
+    font-size:16px;
 }
