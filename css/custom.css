@@ -42,7 +42,10 @@ h2 span {
 
 .ip-color {
     color: #e95420;
+}
 
+.image-oval {
+    border-radius: 50%;
 }
 .body-background {
     /* background-image: 'assets/pale_blue_dot.jpg'; */
