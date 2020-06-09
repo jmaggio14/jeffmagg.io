@@ -1,7 +1,7 @@
 img {
     display: block;
-    max-width:324px;
-    max-height:324px;
+    /* max-width:324px;
+    max-height:324px; */
     width: auto;
     height: auto;
     margin: auto;
@@ -11,9 +11,62 @@ h2 span {
     display: block;
 }
 
+
+
+.about-me {
+    font-size: 15px;
+}
+
+.about-me-blurb {
+  text-indent: 2em;
+  line-height: 1.6;
+}
+
+.body-background {
+    /* background-image: 'assets/pale_blue_dot.jpg'; */
+    /* background: #212529; */
+    background-image: url("../assets/pale_blue_dot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.copyright-footer {
+    color: #fcfcfc;
+}
+
+.container {
+    background: #fcfcfc;
+}
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
 .proj {
     padding-left: 2%;
     padding-bottom: 1vh;
+}
+
+.proj-image {
+    height:100%;
+    width:100%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 40%;
+    max-height: 643px;
+    display: block;
+    border-color: #d9230f;
+    border-width: 2px;
+    border-style: solid;
+  }
+
+.carousel-item {
+    /* background-color: #a6a19f; */
+    /* height: 60vh; */
 
 }
 
@@ -62,6 +115,10 @@ h2 span {
 
 .head-buffer {
     padding-top: 3vh
+}
+
+.bottom-buffer {
+    padding-bottom: 3vh
 }
 
 .head-buffer-2 {
