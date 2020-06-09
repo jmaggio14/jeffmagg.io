@@ -14,9 +14,20 @@ h2 span {
 
 
 .about-me {
-    font-size: 15px;
+    font-size: 16px;
+
+}
+.about-me-border {
+    border-width: 0;
     border-bottom: 1px;
-    border-color: gray;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+.about-me-image {
+    height:100%;
+    width:100%;
+    padding-bottom: 2vh;
 }
 
 .about-me-blurb {
@@ -24,6 +35,14 @@ h2 span {
   line-height: 1.6;
 }
 
+.ip-header {
+    font-family: Ubuntu;
+}
+
+.ip-color {
+    color: #e95420;
+
+}
 .body-background {
     /* background-image: 'assets/pale_blue_dot.jpg'; */
     /* background: #212529; */
