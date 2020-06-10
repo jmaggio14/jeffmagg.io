@@ -11,6 +11,20 @@ h2 span {
     display: block;
 }
 
+.narrow-quote{
+    width:50%;
+    margin: auto;
+    font-style: italic;
+    color: #999999;
+}
+
+.i-gray{
+    color:#888888;
+}
+
+.i-gray-2{
+    color:#777777;
+}
 
 
 .about-me {
